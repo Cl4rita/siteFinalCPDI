@@ -1,7 +1,7 @@
 body {
     background-color: #0a0a0a;
     color: #f0f0f0;
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Brush Script MT', cursive;
     line-height: 1.6;
     padding: 40px;
@@ -57,7 +57,7 @@ button:hover {
     align-items: center;
     width: 90vw;
     background: rgba(255, 255, 255, 0);
-    height: 20vh;
+    height: 30vh;
     border-radius: 35px;
     padding: 5px 5px;
     padding-left: 16px;
