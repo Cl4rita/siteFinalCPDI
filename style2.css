@@ -1,0 +1,75 @@
+body {
+    background-color: #0a0a0a;
+    color: #f0f0f0;
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+    line-height: 1.6;
+    padding: 40px;
+    margin: 0 auto;
+}
+.animEscrita {
+    overflow: hidden;
+    white-space: pre-wrap;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 10px;
+    animation: 
+        typing 4s steps(60, end),
+        blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(7, 173, 132); }
+}
+p::selection {
+    background: rgb(7, 173, 132);
+    color: #121212;
+}
+button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: rgb(7, 173, 132);
+    color: white;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: transform 0.3s, background-color 0.3s;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+button:hover {
+    background-color: rgb(7, 173, 132);
+    transform: scale(1.05);
+}
+.botoes{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0);
+    height: 20vh;
+    border-radius: 35px;
+    padding: 5px 5px;
+    padding-left: 16px;
+    margin: 0 auto;
+}
+video{
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.centralizar{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
